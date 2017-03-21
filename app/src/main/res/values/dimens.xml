@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--UKURAN TEKS-->
+    <dimen name="ukuran14sp">14sp</dimen>
+    <dimen name="ukuran15sp">15sp</dimen>
+    <dimen name="ukuran17sp">17sp</dimen>
+
+    <dimen name="jarak_atas_keterangan_lahir">12dp</dimen>
+
+</resources>

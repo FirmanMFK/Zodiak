@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Zodiaq</string>
+    <string name="edit_namalengkap_hint">nama lengkap anda atau orang lain</string>
+    <string name="edit_tanggalahir_hint">tanggal-bulan-tahun</string>
+    <string name="teks_data_kosong">data belum tersedia</string>
+
+    <!--MENU HALAMAN UTAMA-->
+    <string name="menu_riwayat">Riwayat Bintang Kelahiran</string>
+    <string name="menu_hapus_semua">Hapus Semua Kelahiran</string>
+    <string name="menu_tentangaplikasi">Tentang Aplikasi</string>
+
+    <!--HALAMAN UTAMA-->
+    <string name="teks_nama_lengkap">Nama Lengkap</string>
+    <string name="teks_tanggal_lahir">Tanggal Lahir</string>
+    <string name="tombol_cek_tanggal_lahir">CEK TANGGAL LAHIR</string>
+    <string name="tombol_teks_setel">SETEL</string>
+    <string name="tekshasil_nama_lengkap">Nama Lengkap</string>
+    <string name="tekshasil_waktu_lahir">Waktu Lahir</string>
+    <string name="tekshasil_zodiak">Zodiak</string>
+    <string name="tekshasil_usia">Usia</string>
+    <string name="tombol_teks_simpan_data_kelahiran">SIMPAN DATA KELAHIRAN</string>
+
+    <!--PESAN TOAST-->
+    <string name="toast_data_disimpan">Data kelahiran telah disimpan</string>
+    <string name="toast_data_gagal_simpan">Gagal menyimpan data</string>
+
+    <string name="toast_gagal_ambildata">Gagal mengambil data kelahiran</string>
+    <string name="toast_koneksi_internet_gagal">Koneksi internet tidak tersedia</string>
+
+    <string name="toast_gagal_namapengguna">Isi nama pengguna dengan benar</string>
+    <string name="toast_gagal_tanggalahir">Isi tanggal kelahiran dengan benar</string>
+
+
+    <!--HALAMAN BOOKMARK-->
+    <string name="judul_bookmark_halaman">Data Kelahiran Tersimpan</string>
+    <string name="pesantoast_datadihapus">Data kelahiran telah dihapus</string>
+    <string name="pesantoast_gagal_datadihapus">Data kelahiran gagal dihapus</string>
+    <string name="bookmark_nama">Nama</string>
+    <string name="bookmark_hari_kelahiran">Hari Kelahiran</string>
+    <string name="bookmark_usia">Usia</string>
+    <string name="bookmark_zodiak">Zodiak</string>
+
+
+</resources>

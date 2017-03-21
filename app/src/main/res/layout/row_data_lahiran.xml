@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bookmark_nama"
+            android:textColor="@color/warnateksjudul"
+            android:textSize="@dimen/ukuran17sp"/>
+
+        <TextView
+            android:id="@+id/teks_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@color/warnatekssubjudul"
+            android:textSize="@dimen/ukuran15sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/bookmark_hari_kelahiran"
+            android:textColor="@color/warnateksjudul"
+            android:textSize="@dimen/ukuran17sp"/>
+
+        <TextView
+            android:id="@+id/teks_hari_lahiran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@color/warnatekssubjudul"
+            android:textSize="@dimen/ukuran15sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/bookmark_usia"
+            android:textColor="@color/warnateksjudul"
+            android:textSize="@dimen/ukuran17sp"/>
+
+        <TextView
+            android:id="@+id/teks_usia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@color/warnatekssubjudul"
+            android:textSize="@dimen/ukuran15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/bookmark_zodiak"
+            android:textColor="@color/warnateksjudul"
+            android:textSize="@dimen/ukuran17sp"/>
+
+        <TextView
+            android:id="@+id/teks_zodiak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@color/warnatekssubjudul"
+            android:textSize="@dimen/ukuran15sp"/>
+
+
+        <Button
+            android:id="@+id/tombol_hapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="right"
+            android:text="HAPUS"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_200"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

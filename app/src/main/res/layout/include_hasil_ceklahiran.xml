@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/layout_hasil_tanggalahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_200"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/jarak_atas_keterangan_lahir"
+            android:text="@string/tekshasil_nama_lengkap"
+            android:textColor="@color/warnateksjudul"
+            android:textSize="@dimen/ukuran17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/teks_datahasil_namalengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="@string/teks_data_kosong"
+            android:textSize="@dimen/ukuran17sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/jarak_atas_keterangan_lahir"
+            android:text="@string/tekshasil_waktu_lahir"
+            android:textColor="@color/warnateksjudul"
+            android:textSize="@dimen/ukuran17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/teks_datahasil_waktulahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="@string/teks_data_kosong"
+            android:textSize="@dimen/ukuran17sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/jarak_atas_keterangan_lahir"
+            android:text="@string/tekshasil_zodiak"
+            android:textColor="@color/warnateksjudul"
+            android:textSize="@dimen/ukuran17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/teks_datahasil_zodiak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="@string/teks_data_kosong"
+            android:textSize="@dimen/ukuran17sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/jarak_atas_keterangan_lahir"
+            android:text="@string/tekshasil_usia"
+            android:textColor="@color/warnateksjudul"
+            android:textSize="@dimen/ukuran17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/teks_datahasil_usia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="@string/teks_data_kosong"
+            android:textSize="@dimen/ukuran17sp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/tombol_simpan_kelahiran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tombol_teks_simpan_data_kelahiran"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

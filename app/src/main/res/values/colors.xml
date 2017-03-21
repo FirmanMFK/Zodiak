@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- WARNATEKS -->
+    <color name="warnateksjudul">#263238</color>
+    <color name="warnatekssubjudul">#607D8B</color>
+    <color name="hitam">#212121</color>
+
+    <color name="transparan">#00000000</color>
+    <color name="putih">#ffffff</color>
+
+    <color name="grey_200">#E0E0E0</color>
+
+</resources>
