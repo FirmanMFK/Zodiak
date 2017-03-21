@@ -1,32 +1,18 @@
-package com.firman.zodiaq.database.model;
-
-import io.realm.RealmObject;
-import io.realm.annotations.PrimaryKey;
+package com.firman.zodiaq.internet.model;
 
 /**
  * Created by Firman on 3/22/2017.
  */
 
-public class RMDataLahiran extends RealmObject {
-
-    @PrimaryKey
-    private String idLahiran;
+public class Lahiran {
 
     private String nama;
     private String lahir;
     private String usia;
     private String zodiak;
 
-    public RMDataLahiran() {
+    public Lahiran() {
 
-    }
-
-    public String getIdLahiran() {
-        return idLahiran;
-    }
-
-    public void setIdLahiran(String idLahiran) {
-        this.idLahiran = idLahiran;
     }
 
     public String getNama() {
