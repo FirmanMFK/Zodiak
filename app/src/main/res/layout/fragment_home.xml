@@ -14,9 +14,9 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include layout="@layout/incl_layout_isidata"/>
+            <include layout="@layout/include_layout_isidata"/>
 
-            <include layout="@layout/incl_hasil_ceklahiran"/>
+            <include layout="@layout/include_hasil_ceklahiran"/>
 
         </LinearLayout>
 
