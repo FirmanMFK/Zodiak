@@ -127,7 +127,7 @@ public class OkHttp3Stack implements HttpStack {
 
             case Request.Method.DEPRECATED_GET_OR_POST:
 
-                // Ensure backwards compatibility.  Volley assumes a request with a null body is a GET.
+                // Ensure backwards compatibility.  Volleys assumes a request with a null body is a GET.
                 byte[] postBody = request.getPostBody();
 
                 if (postBody != null) {
