@@ -4,7 +4,7 @@ package com.firman.zodiaq;
  * Created by Firman on 3/21/2017.
  */
 
-public class Constant {
+public class Konstan {
 
     public static final String ALAMAT_SERVER = "http://ibacor.com";
 

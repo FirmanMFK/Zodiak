@@ -3,6 +3,7 @@ package com.firman.zodiaq.internet;
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.Response;
+import com.firman.zodiaq.Konstan;
 import com.firman.zodiaq.internet.model.Lahiran;
 import com.firman.zodiaq.internet.volley.FastJsonRequest;
 import com.firman.zodiaq.internet.volley.LinkParsers;
