@@ -5,6 +5,7 @@ apply plugin: 'android-apt'
 android {
     compileSdkVersion 23
     buildToolsVersion "25.0.0"
+    useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "com.firman.zodiaq"
         minSdkVersion 19
